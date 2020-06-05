@@ -8,9 +8,6 @@ We have support for Yelp-API with suggestions and real time chat.
 ![Website](Images/FrontEnd.PNG)
 ![example](Images/UserChat.PNG)
 
-## Chat Architecture Diagram
-![diagram](Images/Architecture.PNG)
-
 ## Services Used
 1. Amazon S3 - To host the frontend
 2. Amazon Lex - To create the bot
@@ -148,3 +145,6 @@ We have support for Yelp-API with suggestions and real time chat.
             ii. Modify the rest of the LF2 function if necessary to send the user text/email.
     * Set up a CloudWatch event trigger that runs every minute and invokes the Lambda function as a result:
         https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/RunLabdaSchedule.html. This automates the queue worker Lambda to poll                and process suggestion requests on its own.
+        
+## Chat Architecture Diagram
+![diagram](Images/Architecture.PNG)
