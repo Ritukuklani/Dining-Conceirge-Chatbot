@@ -1,0 +1,3 @@
+Kibana URL: https://search-es-restaurant-domain-fjlnyb4olzxswem7scgg7jm6dy.us-east-1.es.amazonaws.com/_plugin/kibana/
+
+
